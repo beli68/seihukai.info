@@ -1,0 +1,28 @@
+baseURL = "https://www.seihukai.info/"
+languageCode = "ja"
+title = "清風会"
+
+theme = "cleanwhite"
+
+hasCJKLanguage = true
+
+[pagination]
+pagerSize = 10
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+[params]
+  SEOTitle = "清風会 | 杖道・神道夢想流杖術 清風会 兵庫支部"
+  description="杖道・神道夢想流杖術 清風会 兵庫支部"
+  keyword = "清風会,杖道,神道夢想流杖術"
+  slogan = "杖道・神道夢想流杖術 清風会 兵庫支部"
+  custom_css = ["css/custom.css"]
+  header_image = "images/header.jpg"
+  [[params.additional_menus]]
+  title =  "杖道とは"
+  href =  "/pages/jodo/"
+  [[params.additional_menus]]
+  title =  "練習場所"
+  href =  "/pages/practice/"
